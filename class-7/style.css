@@ -1,0 +1,57 @@
+.header{
+background-color: MediumSeaGreen;
+/*height: 100px;*/
+min-height: 80px;
+margin:auto;
+padding: 10px;
+text-align: center;
+font-size: 40px;
+}
+
+.wrapper{
+	/*overflow: hidden;*/
+}
+
+.blog{
+background-color: green;
+min-height: 150px;
+width: 70%;
+float: left;
+}
+
+.contact{
+background-color: blue;
+min-height: 150px;
+width: 25%;
+float: right;
+}
+
+
+.footer{
+	clear: both;
+background-color: black;
+min-height: 80px;
+color: white;	
+}
+
+
+.wrapper2{
+	overflow: hidden;
+}
+
+.corona{
+min-height: 150px;
+width: 50%;
+float: left;
+}
+
+.google_map{
+min-height: 150px;
+width: 50%;
+float: right;
+}
+
+
+
+
+
