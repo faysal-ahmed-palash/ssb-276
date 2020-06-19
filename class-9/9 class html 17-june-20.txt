@@ -1,0 +1,26 @@
+3 types of button 
+submit, reset, button
+
+cross broser support.
+
+line css:
+line-height:
+line-spacing:
+word-spacing:
+
+
+
+
+
+
+home work:
+> = &gt;
+note: w3schools html => entities, emojis, symbol 
+
+# css cross browser support example.
+
+# new webimage to website: 
+note: rgba image ase.
+
+
+
