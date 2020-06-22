@@ -466,9 +466,9 @@ footer{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 12px;
 	color: white;
-	padding: 0 25px;
+	padding: 0 23px;
 	/*display: inline-block;*/
 	transition: 0.3s;
 }
@@ -489,6 +489,7 @@ border-right: 0;
 
 .fbox2 p{
 	color: white;
+	font-size: 14px;
 	margin-left: 40px;
 }
 
