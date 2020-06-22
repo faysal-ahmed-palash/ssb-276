@@ -267,6 +267,20 @@ margin-top: 20px;
 
 }
 
+.single2{
+	width: 29%;
+	/*border-right: 1px solid red;*/
+	padding: 20px 2.1% 30px;
+	float: left;
+	/*margin-right: 15px;*/
+
+}
+
+.single2:last-child{
+	margin-right: 0px;
+	border-right: 0;
+}
+
 .b1{
 overflow: hidden;
 /*border: 1px solid red;*/
