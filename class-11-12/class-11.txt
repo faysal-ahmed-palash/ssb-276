@@ -1,0 +1,12 @@
+psd to html
+
+
+
+1. backup psd
+2. research psd file: 
+	layout
+	section
+	common pattern: head font, sub head font, text font
+
+font color
+#626262
