@@ -79,7 +79,7 @@ header{
 	text-decoration: none;
 	text-transform: uppercase;
 
-	margin: 0 90px;
+	margin: 0 80px;
 	padding: 10px 0;
 	display: inline-block;
 	transition: 0.3s;
@@ -182,27 +182,57 @@ margin-right: 0;
 
 /*News Start*/
 .news{
-	padding: 60px 0;
 	background-color: #f0f0f0;
 	text-align: center;
+	padding: 70px 0;
 }
 
-.news_title{
+.signup{
 	font-size: 30px;
 	font-weight: 400;
 }
 
-.email{
-	padding-top: 60px;
+.s_h1{
+	color: #33333;
+	margin-top: 0;
+	margin-bottom: 70px; 
 }
-.news input{
-  width: 25%;
-  background-color: transparent;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-bottom: 1px solid black;
+.s_form{
+	position: relative;
+	width: 400px;
+	/*border: 2px solid red;*/
+	margin: 0 auto;
 }
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+
+.s_form input:focus{
+		outline: 0;
+	}
+
+.s_form button{
+	position: absolute;
+	top:15px;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.s_form button:focus{
+	outline: 0;
+	}
+.s_form button img{}
 
 /*News End*/
 
@@ -251,13 +281,14 @@ margin-right: 0;
 
 footer{
 	background-color: #f0f0f0;
+	padding: 25px 0;
 }
 
 .terms{
-	width: 100%;
+	width: 40%;
 	float: left;
 	/*margin-top: 50px;*/
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	overflow: hidden;
 
 }
@@ -270,8 +301,8 @@ footer{
 	overflow: hidden;
 }
 .terms ul li a{
-	/*font-family: sans-serif;*/
-	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
 	font-weight: 400;
 	color: #626262;
 	text-decoration: none;
@@ -285,10 +316,10 @@ footer{
 }
 
 .social{
-	width: 100%;
+	width: 50%;
 	float: right;
 	/*margin-top: 50px;*/
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 }
 .social ul{
@@ -300,14 +331,14 @@ footer{
 	overflow: hidden;
 }
 .social ul li a{
-	/*font-family: sans-serif;*/
+	font-family: 'Playfair Display', serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #626262;
 	text-decoration: none;
 	text-transform: uppercase;
 
-	margin: 0 30px;
+	margin: 0 20px;
 	padding: 10px 0;
 	display: inline-block;
 	transition: 0.3s;
