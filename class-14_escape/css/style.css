@@ -1,0 +1,557 @@
+
+@font-face {
+    font-family: "Brandon_med";
+    src: url("../fonts/Brandon_med.otf");
+}
+
+@font-face {
+    font-family: "Brandon_light";
+    src: url("../fonts/Brandon_light.otf");
+}
+
+@font-face {
+    font-family: "Brandon_bld";
+    src: url("../fonts/Brandon_bld.otf");
+}
+
+@font-face {
+    font-family: "Brandon_reg";
+    src: url("../fonts/Brandon_reg.otf");
+}
+
+
+body{
+	font-family: "Brandon Grotesque";
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Service Start*/
+
+header{
+background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero.png");
+/*background: url("../images/hero.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+
+}
+
+
+.wrapper_hero{
+	width: 100%;
+	padding-top: 25px;
+}
+
+
+
+.logo{
+	width: 35%;
+	float: left;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 27%;
+	margin-left: 229px;
+}
+
+.menu{
+	width: 40%;
+	float: right;
+	margin-top: 1px;
+	padding-right: 200px;
+	/*border: 1px solid yellow;*/
+
+
+}
+.menu ul{
+	float: right;
+	margin-top: 30px;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: "Brandon_med";
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+	padding: 0 30px 0 0;
+	display: inline-block;
+	transition: 0.3s;	
+}
+
+.menu ul li a:hover{
+	color: #3171DB;
+}
+
+
+.hero_title{
+	text-align: center;
+	padding-top: 153px;
+	/*border: 1px solid yellow;*/
+}
+.hero_title h2{
+	font-family: "Brandon_light";
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 32px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*border: 1px solid yellow;*/
+}
+.hero_title h1{
+	font-family: "Brandon_bld";
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 66px;
+	color: white;
+	margin-top: 15px;
+	/*border: 1px solid yellow;*/
+}
+
+.hero_title button{
+	font-family: "Brandon_bld";
+	width: 250px;
+	height: 60px;
+	margin-top: 1px;
+	font-weight: 500;
+	font-size: 23px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	/*background-color:rgba(0,0,0,0.3);*/
+	background-color: Transparent;
+    overflow: hidden;
+}
+
+
+/*Service End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Web Start*/
+
+.web{
+	min-height: 200px;
+}
+.wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 70%;
+	padding: 50px 0;
+	/*border: 1px solid red;*/
+}
+
+.web_left{
+	width: 55%;
+	float: left;
+	/*border: 1px solid yellow;*/
+}
+
+.features_h1{
+	font-family: "Brandon_bld";
+	font-weight: 700;
+	font-size: 60px;
+	
+}
+
+.p_text{
+	font-family: "Brandon_reg";
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+.web_right{
+	width: 30%;
+	float: right;
+	padding-top: 67px;
+	padding-right: 50px;
+	/*border: 1px solid yellow;*/
+}
+
+/*Web End*/
+
+
+
+
+/*Identity Start*/
+.identity{
+	min-height: 200px;
+	background-color: #fafafa;
+}
+
+.identity_left{
+	width: 30%;
+	float: left;
+	padding-top: 55px;
+	padding-left: 150px;
+	/*border: 1px solid yellow;*/
+}
+
+
+.identity_right{
+	width: 55%;
+	float: right;
+
+	/*border: 1px solid yellow;*/
+}
+
+/*Identity End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Service Start*/
+.service{
+	padding-top: 60px;
+	overflow: hidden;
+	min-height: 595px;
+}
+.single{
+	margin-bottom: 50px;
+	width: 	47%;
+	/*border: 1px solid red;*/
+	float: 	left;
+
+}
+
+.service_left{
+	width: 20%;
+	float: left;
+	padding-right: 5px;
+	padding-left: 29px;
+	/*border: 1px solid red;*/
+}
+
+.service_right{
+	width: 58%;
+	float: right;
+	padding-left: 5px;
+	padding-right: 45px;
+	/*border: 1px solid yellow;*/
+}
+
+
+.single img{
+	width: 	100%;
+	margin-top: 20px;
+	margin-left: 15px;
+	
+}
+
+.service_head{
+	font-family: "Brandon_med";
+	font-weight: 400;
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+.service_text{
+	font-family: "Brandon_reg";
+	font-size: 18px;
+	color: #777777;
+	margin-top: 5px;
+	margin-right: -5px;
+	/*border: 1px solid red;*/
+
+}
+
+.single:nth-child(even){
+		margin-left: 6%;
+}
+
+/*Service End*/
+
+
+
+
+/*Awesome Client Start*/
+.client{
+	padding-top: 60px;
+	overflow: hidden;
+	min-height: 800px;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+.client h1{
+	font-family: "Brandon_bld";
+	font-weight: 700;
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+
+.client p{
+	font-family: "Brandon_reg";
+	font-size: 22px;
+	color: #777777;
+	margin-top: 0;
+}
+
+/*Awesome Client End*/
+
+
+
+
+
+/*Client Logo Start*/
+.client_logo{
+	overflow: hidden;
+	min-height: 150px;
+}
+
+.client_logo img{
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+/*Client Logo End*/
+
+
+
+
+
+
+
+
+/*Team Start*/
+
+.team{
+	overflow: hidden;
+	min-height: 800px;
+	background-color: black;
+	text-align: center;
+}
+
+.team_head_text{
+	font-family: "Brandon_bld";
+	font-weight: 700;
+	font-size: 60px;
+	margin-bottom: 0;
+	color: white;
+}
+
+
+.team_sub_text{
+	font-family: "Brandon_reg";
+	font-size: 22px;
+	color: #777777;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+
+
+.team_block{
+	margin-bottom: 50px;
+	width: 	33%;
+	/*border: 1px solid red;*/
+	float: 	left;
+	overflow: hidden;
+
+}
+
+
+
+.team_image{
+	width: 	100%;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.team_name{
+	font-family: "Brandon_bld";
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+.team_designation{
+	font-family: "Brandon_reg";
+	font-size: 16px;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+.team_social_link{
+	border: 2px solid white;
+	border-radius: 50px;
+	margin-right: 5px;
+	padding: 10px;
+}
+
+
+/*.team_block:nth-child(even){
+		margin-left: 5%;
+}*/
+
+
+.team_details{
+	font-family: "Brandon_reg";
+	font-size: 20px;
+	color: #ebebeb;
+	/*border: 1px solid red;*/
+}
+
+
+/*Team End*/
+
+
+
+/*Contact Start*/
+.contact{
+	overflow: hidden;
+	min-height: 600px;
+	background-color: #7690c5;
+}
+
+.contact_box_left{
+	width: 45%;
+	float: left;
+}
+
+
+
+.contact_sub_text{
+	font-family: "Brandon_reg";
+	font-size: 18px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+
+.contact_box_right{
+	width: 45%;
+	float: right;
+	border-radius: 5px;
+  	padding-top: 60px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*Contact Start*/
+
+
+
+
+
+
+
+/*Footer Start*/
+footer{
+	background-color: #7690c5;
+	text-align: center;
+	padding-top: 10px;
+	/*border: 1px solid red;*/
+}
+
+.footer_wrapper{
+	overflow: hidden;
+	margin: auto;
+	width: 70%;
+}
+
+
+hr {
+   border: 0;
+   border-top: 1px solid white;
+   opacity: .1;
+}
+
+.footer_text{
+	font-family: "Brandon_med";
+	font-size: 16px;
+	color: white;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer End*/
