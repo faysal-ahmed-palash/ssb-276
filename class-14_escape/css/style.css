@@ -147,13 +147,6 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 
 
 
-
-
-
-
-
-
-
 /*Web Start*/
 
 .web{
@@ -196,6 +189,8 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 }
 
 /*Web End*/
+
+
 
 
 
@@ -324,6 +319,84 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 	margin-top: 0;
 }
 
+
+.client .client_review {
+  overflow: hidden;
+}
+
+.client .client_review .client_icon {
+  width: 20%;
+  float: left;
+}
+
+.client .client_review .client_icon img {
+  width: 100%;
+}
+
+.client .client_review .client_content {
+  position: relative;
+  width: 50%;
+  float: left;
+  margin-left: 45px;
+  margin-top: 10px;
+  padding: 40px 80px;
+  background-color: #ffffff;
+  border: 2px solid #dddddd6b;
+}
+
+.client .client_review .client_content::before {
+  content: "";
+  position: absolute;
+  bottom: 80px;
+  left: -25px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 35px solid #fff;
+  border-bottom: 15px solid transparent;
+}
+
+.client .client_review .client_content p {
+  margin-bottom: 15px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.client .client_review .client_content span {
+  font-size: 20px;
+  color: #7690c5;
+}
+
+.clieclientnt_sec .review_last {
+  margin-top: 60px;
+}
+
+.client .review_last .client_content {
+  position: relative;
+}
+
+.client .review_last .client_content::before {
+  display: none;
+}
+
+.client .review_last .client_content::after {
+  content: "";
+  position: absolute;
+  bottom: 80px;
+  right: -25px;
+  width: 0;
+  height: 0;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-top: 15px solid transparent;
+  border-right: 35px solid #fff;
+  border-bottom: 15px solid transparent;
+}
+
+.client_sec .review_last .client_icon {
+  margin-left: 40px;
+}
+
 /*Awesome Client End*/
 
 
@@ -411,8 +484,6 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 	color: #ffffff;
 }
 .team_social_link{
-	border: 2px solid white;
-	border-radius: 50px;
 	margin-right: 5px;
 	padding: 10px;
 }
@@ -435,61 +506,92 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 
 
 
-/*Contact Start*/
+/* Contact information Start */
 .contact{
-	overflow: hidden;
-	min-height: 600px;
-	background-color: #7690c5;
+    background-color: #7690c5;
+    padding: 15px 0 20px 0;
 }
-
-.contact_box_left{
-	width: 45%;
-	float: left;
+.contact .info{
+    width: 40%;
+    float: left;
+    /*border: 1px solid red;*/
 }
-
-
 
 .contact_sub_text{
-	font-family: "Brandon_reg";
-	font-size: 18px;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 50px;
+    font-family: "Brandon_reg";
+    font-size: 18px;
+    color: #ffffff;
 }
 
 
-.contact_box_right{
-	width: 45%;
-	float: right;
-	border-radius: 5px;
-  	padding-top: 60px;
+.contact .info .logos ul{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.contact .info .logos ul:last-child{
+    margin-bottom: 0;
+}
+.contact .info .logos ul li{
+    list-style-type: none;
+    float: left;
+}
+.contact .info .logos ul li:last-child{
+    float: right;
 }
 
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.logos:nth-child(even){
+		margin-left: 3%;
 }
 
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
+.contact .info .logos ul li img{
+    margin-right: 10px;
+    vertical-align: text-bottom;
 }
+.contact .info .logos ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+    /*margin-left: 20px;*/
+}
+
+
+
+.contact .form{
+    width: 40%;
+    float: right;
+    margin-left: 50px;
+    padding-right: 120px;
+    padding-top: 70px;
+    /*border: 1px solid red;*/
+}
+.contact .form input{
+    width: 94%;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    display: block;
+    font-family: "Brandon_reg";
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbbbbb;
+}
+
+.contact .form textarea{
+    width: 94%;
+    padding: 15px 10px;
+    display: block;
+    font-family: "Brandon_reg";
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbbbbb;
+    border: 0;
+    border-style: hidden;
+}
+
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #32263f;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -501,11 +603,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
-/*Contact Start*/
-
-
-
+/* Contact information End */
 
 
 
