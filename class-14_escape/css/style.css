@@ -297,7 +297,8 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 
 /*Awesome Client Start*/
 .client{
-	padding-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 	overflow: hidden;
 	min-height: 800px;
 	background-color: #fafafa;
@@ -317,16 +318,19 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 	font-size: 22px;
 	color: #777777;
 	margin-top: 0;
+	padding-bottom: 50px;
 }
 
 
 .client .client_review {
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 .client .client_review .client_icon {
   width: 20%;
   float: left;
+  padding: 0 20px;
 }
 
 .client .client_review .client_icon img {
@@ -357,7 +361,7 @@ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/hero
 }
 
 .client .client_review .client_content p {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-size: 26px;
   line-height: 30px;
 }
@@ -638,18 +642,4 @@ hr {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Footer End*/
