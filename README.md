@@ -11,3 +11,4 @@ SSB-276(Full Stack Web Development-18)
 <br>https://faysal-ahmed-palash.github.io/ssb-276/class-14_escape/
 <br>
 <br>https://faysal-ahmed-palash.github.io/ssb-276/bootstrap_grid_flex/
+<br>https://faysal-ahmed-palash.github.io/ssb-276/bootstrap_layout_design/
