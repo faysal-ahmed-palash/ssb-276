@@ -16,3 +16,6 @@ SSB-276(Full Stack Web Development-18)
 <br>https://faysal-ahmed-palash.github.io/ssb-276/bootstrap_components/
 
 <br>https://faysal-ahmed-palash.github.io/ssb-276/bootstrap_tinyone/
+
+
+<br>https://faysal-ahmed-palash.github.io/ssb-276/jquery_practic/
